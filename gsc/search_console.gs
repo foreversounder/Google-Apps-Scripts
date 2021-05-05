@@ -1,8 +1,8 @@
 function parse_SC(domain, startDate, endDate, sheet) {
-  var url = `https://www.googleapis.com/webmasters/v3/sites/${domain}/searchAnalytics/query?key=***********************************`; // Сюда вписать свой API key
+  var url = `https://www.googleapis.com/webmasters/v3/sites/${domain}/searchAnalytics/query?key=6BJW3lZ5GbaxpF3TteiRtQ`; // Сюда вписать свой API key
   var request_body = {
-    startDate: startDate,
-    endDate: endDate,
+    startDate: 2021-05-01,
+    endDate: 2021-05-31,
     searchType: 'web',
     rowLimit: 25000,
     dimensions: [
